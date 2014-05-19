@@ -1,0 +1,359 @@
+---
+- 
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Save Point On
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 136, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 30, false]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Save, pitch: 100, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 134, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 137, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 1
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Save Point Off
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 134, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 137, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 136, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 2
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 3
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: 'Letter #1'
+  switch_id: 81
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 2, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Dear daughter, please enjoy your time']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [studying at Adventure School.]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['We included your journal, you must have']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [been in a rush and forgot it. Keep track]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Dear son, please enjoy your time studying']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [at Adventure School. We included your]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['journal, you must have been in a rush']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and forgotten it. Be sure to keep track]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of all your adventures! Make a lot of new]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [friends! We hope your weekly allowance]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of 100 gold will be enough for you.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Have fun! With love, your mom and dad!']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 4
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Junker - Buy
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 5
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Junker - Sell
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 6
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Junker - Trade
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 7
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: '``INN CHECK'
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 314, p: [0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Starlight, pitch: 130, volume: 50}]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::ME {name: Inn, pitch: 100, volume: 95}]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [170]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 8
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Rep_Checks
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 9
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ^^ JOURNAL ^^
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 135, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [15, 15, 0, 3, 5, -1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [16, 16, 0, 3, 5, -1, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [17, 17, 0, 3, 7, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Quest Log, Social Links, Bestiary, Crystal Monsters], 5]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Quest Log]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [12]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 35, 1, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Social Links]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [12]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 33, 1, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Bestiary]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [12]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Crystal Monsters]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [12]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [1, 17, 15, 16, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 135, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 10
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ^^ JOURNAL SUB^^
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 135, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Quest Log, Social Links, Bestiary], 5]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Quest Log]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 35, 1, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Social Links]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 33, 1, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Bestiary]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [14]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [1, 17, 15, 16, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 135, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 11
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: REMOVE PARTY
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 129, p: [10, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [42, 42, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [1, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 2, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [44, 44, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [2, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 4, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [43, 43, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [4, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 5, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [48, 48, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [5, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 7, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [45, 45, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [7, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [46, 46, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [8, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 12, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [47, 47, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [12, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand
+    i: 0
+    c: 205
+    p:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      wait: true
+      list:
+      - &1 !ruby/object:RPG::MoveCommand {code: 41, parameters: ['', 0]}
+      - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 12
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 13
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ADD_PARTY
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 42, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [1, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 44, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [2, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 43, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [4, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 48, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [5, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 45, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [7, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 46, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [8, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 47, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [12, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 129, p: [10, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 14
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: quick)journal
+  switch_id: 20
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [11, 14]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [10]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [10]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 15
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 16
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 17
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 18
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: WORLD MAP ON
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 216, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 134, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 137, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [2, heros_small, 2, Actor4, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [4, heros_small, 3, Actor4, 4]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, heros_small, 1, Actor4, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 19
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: WORLD MAP OFF
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 216, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 134, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 137, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [2, Actor4, 1, Actor4, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [4, Actor4, 4, Actor4, 4]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, Actor4, 0, Actor4, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 20
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 21
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 22
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 23
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 24
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 25
