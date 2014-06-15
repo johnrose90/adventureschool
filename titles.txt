@@ -1,0 +1,21 @@
+titles can be set on the equip menu. any character can use pretty much any title (there could be some specific ones if desired). the titles give passive buffs and stat boosts. once a title is mastered (via SP), whatever the effect is will be permanant. some titles can not be mastered and thus must be equiped to work.
+
+
+titles:
+
+Beginner (+1 to all stats)
+
+Seeker (increase monster rate 50%) - cannot be mastered
+Hider (decrease monster rate 50%) - cannot be mastered
+
+
+Attacker (+1 attack every level)
+
+Defender (+1 defense every level)
+Lucky (+1 luck every level)
+Speedster (+1 agility every level)
+
+Intuned (+1 magic attack and magic defense every level)
+
+M. Attacker (+1 magic attack every level)
+M Defender (+1 magic defense every level)

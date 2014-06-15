@@ -1,0 +1,159 @@
+
+
+alpha 1.2
+
+-forest changes-
+.the forest is now darker
+.the music is now different
+.added two fishing spots
+.added a save point
+.added a boat to take you across the lake at the end
+.added eight chests
+..one contains a fishing rod
+..one contains a tent
+..one contains a stimulant (not avaiable yet)
+..one contains bait (x5)
+..one contains super bait
+..one contains eye drops
+..one contains a dagger (not avaiable yet)
+.sealed up the path to the thief camp and added a secret camoflouged wall that has a locked door on it
+.the locked door can be opened with the thief's key item, which is currently unobtainable in game
+
+.added a cut scene in the first clearing (i made some minor edits to the camp site so all the party members could fit)
+..at the start of the cut scene, rick gives you the option to camp for the night or keep going to base town
+..if you camp for the night, there is another cut scene, in which a thief steals one of rick's beers
+..rick sends you off to find the thief. the thief can be found at the grave yard.
+..the thief says he already drank the beer, and you are given an option to fight him or let him go
+..if you let him go it adds one to your bad rep and you avoid fighting him
+..if you fight him and win it adds one to your good rep plus whatever spoils from battle
+..the battle isn't in the game yet
+..you also discover he had the beer all along
+..when you return to rick there is another cut scene
+..a social link check is triggered with Rick, in which you can at best obtain +2 social standing with rick, depending on how you handle the bandit encounter
+
+.it doesn't matter if you decide to camp for the night or if you keep going, either way, there is another cut scene
+..when you use the boat to cross the lake for the first time, a ghost squid attacks the boat.
+..the battle is not actually in the game yet, but it will be the first official boss fight of the game
+
+
+.added three potential thief ambushes throughout the forest for one off combats
+.added butterflies
+.added a ranger that says random messages
+.added an old ranger that will sell fishing items and ranger items
+
+
+-portsville changes-
+
+.changed the portsville map a little bit and made it so you teleport to the entrance way from the world map
+.you can now rest at the inn after the first day
+
+.fixed some Adventure Guild bugs, and made it so you now must be a member and select the quest in order to play hide and seek
+.added another quest (lost bone)
+.added a chest
+..it contains Iron
+.moved the chest with 200 dollars from the Artisan District to the Market District
+.added items for sale at most the shops
+
+..item shop inventory:
+...Potion
+...Antidote
+...Eye Drops
+...Stimulant
+...Tent
+
+..weapon shop inventory:
+...Sword
+...Bow
+...Staff
+
+..synth shop inventory:
+...Iron
+...Bronze
+
+.added a waitress who tells rumors and sells drinks at the pub
+.you are now required to meet and talk with alice before the first day is over
+.if you miss her in the artisan district, you will be sent to meet her at the pub
+
+.at the end of the parade, rick now gives you a "Save Crystal" that allows you to call a save point on the world map by pressing C (or whatever key you have set to the X value)
+
+-worldmap changes-
+
+.you can now call a save point on the world map if you have the Save Crystal item
+
+-item changes-
+
+.added a bunch of items (most of which don't do anything yet)
+
+..new items:
+...Booster
+...Band-Aid
+...Eye Drops
+...Chill Pill
+...Lozenge
+...Sea Weed
+...Save Crystal
+...Fang
+...Mythril
+...Coal
+...Fire Ore
+...Earth Ore
+...Wind Ore
+...Water Ore
+...Light Ore
+...Dark Ore
+...Yarn
+...Dug's Bone
+...Bone
+...Leather
+...Stem
+...Petal
+...Flower
+...Hemp
+...Herb
+...Red Berry
+...Blue Berry
+...Ore
+...Stone
+...Lumber
+...Wheat
+...Beer
+...Rick's Beer
+
+..added Crystal Monster items
+...Robby
+...Turner
+...Ooron
+
+-save point changes-
+
+.removed the party option from the save point
+.fixed the tent option, it is now works properly
+.added a save point message box with location while selecting options
+.save point can now be called on the world map with the save crystal option
+
+
+-other changes-
+
+.deleted all the old save files and started a new one
+.updated the fishing mini game
+.tightened up some cut scenes
+
+
+==================================================
+TO-DO:
+
+pub - beer chug game
+buy drinks
+cafe - dish wash game
+serving game?
+
+fortune teller stuff
+
+jed and dug
+
+social link with cindy
+social link with mayor
+social link with panhandler
+
+free item at first store visited
+synth system
