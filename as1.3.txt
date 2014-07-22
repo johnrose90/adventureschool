@@ -1,0 +1,104 @@
+expanded world map
+-added beach house
+-fixed no monsters on world map bug
+
+changed tent to 100 gold price
+
+changed inn to 50 gold a night
+
+changed artisan district and grave yard maps
+
+flipped the portsville entrance map
+
+moved portsville save point into the inn
+
+added secret shop
+
+added access to tower map
+
+fixed tower map / basetown door bug
+
+added wings item
+
+added thunder ore item
+
+added a few new accessory items, and an accessory shop in the artisan district
+
+added access to the sewers
+
+all monters now drop items
+
+added seed items
+
+changed title music
+
+stocked the armor shop:
+casual clothes
+leather top
+cotton robe
+silk cloack
+leather mail
+iron plate
+
+
+bandana
+leather bandana
+copper brace
+circlet
+leather cap
+iron helm
+
+
+added and stocked the accessory shop:
+shield
+spike shield
+brass knuckles
+Power Charm
+Protect Charm
+Leather Boots
+Luck Charm
+
+
+added fat dog hunt
+
+added rat king hunt
+
+magic is not so OP now
+
+========to do list========
+add success, fail, incomplete, and in progress to journal entries
+
+COOKING!
+
+FARMING!
+
+ALCHEMY!
+
+CRAFTING!
+
+Recipes?
+
+PROLOUGE!!!
+
+CARDS??
+
+
+update well to fill bottles
+
+update cracks to be mine spots
+
+update fires to be cooking
+
+update gold pots to be alchemy
+
+add small garden in portsville
+
+add small garden in forest
+
+add farming to gardens
+
+add cutting down certain trees?
+
+add breaking certain rocks?
+
+

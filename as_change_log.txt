@@ -9,6 +9,7 @@ alpha 1.2
 .added a save point
 .added a boat to take you across the lake at the end
 .added eight chests
+..one contains an iron
 ..one contains a fishing rod
 ..one contains a tent
 ..one contains a stimulant (not avaiable yet)
@@ -39,19 +40,23 @@ alpha 1.2
 .added three potential thief ambushes throughout the forest for one off combats
 .added butterflies
 .added a ranger that says random messages
-.added an old ranger that will sell fishing items and ranger items
+.added an old ranger that will sell fishing items and crafting items
 
 
 -portsville changes-
 
 .changed the portsville map a little bit and made it so you teleport to the entrance way from the world map
+.added a bunch of houses, including cindy's house, jed's house, and the noble's house
 .you can now rest at the inn after the first day
 
 .fixed some Adventure Guild bugs, and made it so you now must be a member and select the quest in order to play hide and seek
-.added another quest (lost bone)
+.added another quest called Lost Bone.
+.added beer chugging mini-game
 .added a chest
 ..it contains Iron
-.moved the chest with 200 dollars from the Artisan District to the Market District
+.moved the chest with 200 gold from the Artisan District to the Market District
+.moved same chest again to the noble's house in the entrance area
+.added a chest with 100 gold to the Market District
 .added items for sale at most the shops
 
 ..item shop inventory:
@@ -60,6 +65,10 @@ alpha 1.2
 ...Eye Drops
 ...Stimulant
 ...Tent
+...Empty Bottle
+...Honey
+...Tobacco
+...Bait
 
 ..weapon shop inventory:
 ...Sword
@@ -68,7 +77,13 @@ alpha 1.2
 
 ..synth shop inventory:
 ...Iron
-...Bronze
+
+.added a shop that sells both food and cooking ingredients at the Cafe in the Artisan District
+
+.the weapons cleark and fisherman now buy only special items from the player
+
+
+.added a free item from the first store visited (not including hobby shop)
 
 .added a waitress who tells rumors and sells drinks at the pub
 .you are now required to meet and talk with alice before the first day is over
@@ -118,16 +133,13 @@ alpha 1.2
 ...Wheat
 ...Beer
 ...Rick's Beer
-
-..added Crystal Monster items
-...Robby
-...Turner
-...Ooron
+...Scrap Metal
+...Charred Lumber
 
 -save point changes-
 
 .removed the party option from the save point
-.fixed the tent option, it is now works properly
+.fixed the tent option, it now works properly
 .added a save point message box with location while selecting options
 .save point can now be called on the world map with the save crystal option
 
@@ -135,25 +147,68 @@ alpha 1.2
 -other changes-
 
 .deleted all the old save files and started a new one
+
 .updated the fishing mini game
 .tightened up some cut scenes
+.added tag mini game
+
+.updated some graphics
+
+.add battles to world map and forest.
+
+.added 8 player stats
+-fishing
+-smithing
+-crafting
+-mixing
+-farming
+-enchanting
+-mining
+-cooking
+
+.added ability to add a +1 bonus to four different stats at character creation screen
+.changed it so you have the ability to view your character's stats at character creation screen
+
+.added all current plot elements into journal entries
+.added 'all stats' options to journal and social links
+
+.made it so you have to meet rick before your squad mates appear in the artisan district
+
+.added some extra dialogue with rick and ryoma at the pub
+
+.refined the synth system
+
+
+item categories:
+1 = weapons
+6 = fishing
+7 = cooking
+8 = refinable
+9 = smithing
+10 = alchemy/mixing
+11 = crafting
+12 = enchanting
+
+world map regions:
+1 = plains 1
+2 = fields 1
+3 = forest 1
+4 = plains bridge
+5 = beach 1
+
+
+for equipment terms
+
+weapon = weapon
+shild = head
+head = body
+body = accessory
+accessory = title
+
+
+
 
 
 ==================================================
 TO-DO:
 
-pub - beer chug game
-buy drinks
-cafe - dish wash game
-serving game?
-
-fortune teller stuff
-
-jed and dug
-
-social link with cindy
-social link with mayor
-social link with panhandler
-
-free item at first store visited
-synth system
