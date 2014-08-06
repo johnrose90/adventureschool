@@ -65,6 +65,43 @@ added rat king hunt
 
 magic is not so OP now
 
+added power outage quest
+
+added mayors key quest
+
+
+updated well in portsville town square to fill bottles and pail
+
+added cooking with a few ingredients over any fire spot
+
+added a prolouge cutscene
+
+added vanishing potion (no monster encounters for 30 seconds)
+
+added kitchen map in the cafe
+
+changed the cafe menu a little bit, and made sure items cost gold now
+
+added beehive encounters (1 in portsville, 2 in ranger forest)
+
+added a snowman to ranger forest
+
+added a small ranger camp at the north end of ranger forest, with a save point, a cooking spot, a fishing spot, and a merchant
+
+added battler fish and water snake monsters that will appear sometimes when fishing
+
+added bigfoot monster, stupid rare monster that's a lot like the bear monster
+
+balanced a lot of monster and player stats
+
+added temp teleporting
+
+added early stages of raptor and giant chicken
+
+
+
+
+
 ========to do list========
 add success, fail, incomplete, and in progress to journal entries
 
@@ -83,11 +120,11 @@ PROLOUGE!!!
 CARDS??
 
 
-update well to fill bottles
+
 
 update cracks to be mine spots
 
-update fires to be cooking
+
 
 update gold pots to be alchemy
 
@@ -101,4 +138,103 @@ add cutting down certain trees?
 
 add breaking certain rocks?
 
+fishing = fish, monsters, items
+farming = plants, trees, items
+mining = ore, rocks, items
+cooking = items
 
+smiths = ores
+alchemist (mixing) = leaves
+crafter = woods
+enchanter = spirits
+
+
+======================= VERY IMPORTANT ============== TO DO LIST ================
+
+
+
+milk create power up
+
+water plus ??? potion
+
+petal + water = antidote
+
+cooking = then and there
+
+alchemy = on the go (requires bottle)
+
+
+
+cooking keep ading until done
+
+alchemy just two
+
+collect recipes just for these two
+
+enchanting = elemental ore 
+
+smithing = non-elemental ore (normal upgrades (iron))
+
+crafting = farm tools and lumber
+
+but they all offer only certain items (have to be done with a person, cooking and alchemy can be done anywhere)
+
+
+commit: ready for cooking
+
+recipes:
+
+bacon egg n cheese toast
+-bacon
+-egg
+-cheese
+-bread
+
+cheese omellete
+-egg
+-cheese
+-flower or herb optional
+
+candy bacon
+-bacon
+-honey
+
+cheese toast
+-bread
+-cheese
+-butter optional
+
+b.l.t. toast
+-bacon
+-lettuce
+-tomato
+-bread
+
+bacon sandwich
+-bacon
+-bread (x2)
+
+baked potato
+-potato
+-cheese
+-flower or herb optional
+
+fish special
+-big fish
+-milk
+-noodles
+-herb or flower optional
+
+fish sandwich
+-big or small fish
+-bread (x2)|
+
+
+Dead prez rapper talk video or whatever
+https://www.youtube.com/watch?v=FfNmLvEl1HI
+
+
+
+icons :
+
+heart = 3185
