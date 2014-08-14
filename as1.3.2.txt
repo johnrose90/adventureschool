@@ -1,4 +1,70 @@
-journal total stats:
+big to do list:
+day/night
+finish farming
+finish cooking
+add alchemy
+update synth
+add recipes and books
+add some cutscenes and events
+finish raptors
+update credits during prolouge
+
+
+alpha2 release date: end of august
+beta1 release date: end of september
+
+
+
+
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[day night system]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+events = side quest completion
+         school assignment completion
+         sleeping
+         
+
+
+
+morning - two events
+
+afternoon - three events
+
+evening - unlimited events until sleep
+
+
+
+
+
+Events needed to add:
+-rick gives assignment to player to join adventure guild before sleep
+-forest event at ranger north entrance site
+
+
+
+
+objectives:
+find rick
+find team mates
+join adventure guild
+-once the above is done, you can:
+stay at the portsville inn
+
+make it through ranger forest
+make it to basetown
+visit the basetown shops
+-once the above is done, you can:
+stay at basetown inn
+
+make it through the mountain path
+check in at adventure school
+tour of school (optional)
+-once the above is done, you can:
+visit dorm room 
+
+
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[journal total stats:]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
 
 
@@ -30,4 +96,4 @@ alcoholic beverages consumed
 
 
 
-RAPTORS
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[RAPTORS]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
